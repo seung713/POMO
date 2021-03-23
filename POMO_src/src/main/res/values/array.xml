@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="col">
+        <item >가천리버럴아츠칼리지</item>
+        <item >경영대학</item>
+        <item >사회과학대학</item>
+        <item >인문대학</item>
+        <item >법과대학</item>
+        <item >공과대학</item>
+        <item >바이오나노대학</item>
+        <item >IT융합대학</item>
+        <item >한의과대학</item>
+        <item >예술·체육대학</item>
+    </string-array>
+    <string-array name="la_dept">
+        <item >자유전공(인문)</item>
+    </string-array>
+    <string-array name="b_dept">
+        <item >경영학과</item>
+        <item >금융수학과</item>
+    </string-array>
+    <string-array name="ss_dept">
+        <item >미디어커뮤니케이션학과</item>
+        <item >관광경영학과</item>
+        <item >경제학과</item>
+        <item >의료경영학과</item>
+        <item >응용통계학과</item>
+        <item >사회복지학과</item>
+        <item >유아교육학과</item>
+        <item >심리학과</item>
+    </string-array>
+    <string-array name="h_dept">
+        <item >한국어문학과</item>
+        <item >영미어문학과</item>
+        <item >동양어문학과</item>
+        <item >유럽어문학과</item>
+    </string-array>
+    <string-array name="l_dept">
+        <item >법학과</item>
+        <item >경찰·안보학과</item>
+        <item >행정학과</item>
+        <item >경찰연계학전공</item>
+    </string-array>
+    <string-array name="e_dept">
+        <item >도시계획학과</item>
+        <item >조경학과</item>
+        <item >실내건축학과</item>
+        <item >건축학과</item>
+        <item >건축공학과</item>
+        <item >전기공학과</item>
+        <item >설비플랜트소방방재공학과</item>
+        <item >화공생명공학과</item>
+        <item >기계공학과</item>
+        <item >토목환경공학과</item>
+        <item >산업경영공학과</item>
+    </string-array>
+    <string-array name="bt_dept">
+        <item >식품생물공학과</item>
+        <item >식품영양학과</item>
+        <item >바이오나노학과</item>
+        <item >생명과학과</item>
+        <item >물리학과</item>
+        <item >화학과</item>
+    </string-array>
+    <string-array name="c_dept">
+        <item >AI·소프트웨어학부</item>
+        <item >컴퓨터공학과</item>
+        <item >전자공학과</item>
+    </string-array>
+    <string-array name="km_dept">
+        <item >한의예과</item>
+        <item >한의학과</item>
+    </string-array>
+    <string-array name="pe_dept">
+        <item >회화조소전공</item>
+        <item >시각디자인전공</item>
+        <item >산업디자인전공</item>
+        <item >패션디자인전공</item>
+        <item >성악전공</item>
+        <item >기악전공</item>
+        <item >작곡전공</item>
+        <item >체육전공</item>
+        <item >태권도전공</item>
+        <item >연기예술학과</item>
+    </string-array>
+</resources>

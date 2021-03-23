@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       android:gravity="center">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="일정"
+          android:textSize="24sp"
+          android:textColor="@color/colorAccent"
+          android:textStyle="bold"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="* 앱 종료시 초기화됩니다."
+          android:textColor="@android:color/darker_gray"/>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:paddingHorizontal="10dp">
+
+      <EditText
+          android:id="@+id/et_todo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="4"
+          android:hint="일정을 입력하세요."
+          android:inputType="text"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingHorizontal="10dp">
+
+         <Button
+             android:id="@+id/btn_add"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:background="@drawable/round_background"
+             android:backgroundTint="@color/colorAccent"
+             android:text="추가"
+             android:textColor="@android:color/white"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/btn_modify"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_marginHorizontal="10dp"
+             android:layout_weight="1"
+             android:background="@drawable/round_background"
+             android:backgroundTint="@android:color/holo_blue_dark"
+             android:text="수정"
+             android:textColor="@android:color/white"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/btn_del"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:background="@drawable/round_background"
+             android:backgroundTint="@android:color/holo_red_dark"
+             android:text="삭제"
+             android:textColor="@android:color/white"
+             android:textStyle="bold" />
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="7"
+       android:orientation="vertical">
+
+      <ListView
+          android:id="@+id/lv_todo"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:choiceMode="singleChoice"/>
+   </LinearLayout>
+
+</LinearLayout>
